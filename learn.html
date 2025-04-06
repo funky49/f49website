@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title go here</MENU></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <script>
+        // Load the navbar.html file into the #navbar div
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    
+        // Add the toggleMenu function
+        function toggleMenu() {
+            const links = document.querySelector('.navbar .links');
+            links.classList.toggle('active');
+        }
+            // Load the footer.html file into the #footer div
+            fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+<div class="content">
+    <p><strong>funky49</strong> is Steven Rush, a rapper/producer/dj and science enthusiast living in Tampa, FL, USA, Earth. He has rapped for both Chuck D and Bill Nye.</p>
+    <p>funky49 has performed at geek-friendly events such as Orlando Nerd Fest (2014-2015), Nerdapalooza (2007-2012), the St. Pete Science Festival (2012-present), Tampa Bay Comic Con (2016-???) and the USA Science and Engineering Festival (2012). He is most likely the only rapper to have performed at the Smithsonian National Air &amp; Space Museum and the National Science Foundation. He&rsquo;s been on the same bill as most major nerdcore superstars and once flew to Eugene, Oregon to open for mc chris. He was named a &ldquo;Nerdcore Hip-Hop All Star&rdquo; by Wired magazine. His <a href="https://youtu.be/oaG6umMkbxg" target="_blank">science outreach via hip-hop music video for Fermilab</a> has over 60,000 views.</p>
+    <p>funky49 has also given presentations at the National Academy of Sciences, the Fermi National Accelerator Laboratory, BarCamp Tampa and was honored to tryout for TED. Not just a solo performer,&nbsp;he is a proud member of the Orlando nerdcore supergroup, Emergency Pizza Party.  </p>
+    <p>funky49 has been lucky enough to attend #NASASocial events at the Kennedy Space Center (Mars Curiosity launch, Mars MAVEN launch). Space Camp USA invited him to a Tweetup where they made him COMMANDER of the ENTERPRISE.</p><p>If you&rsquo;re looking for more information about funky49, please check <a href="https://en.wikipedia.org/wiki/User:Funky49" target="_blank">this near-exhaustive list</a> of links. Crazy pictures of his exploits are found on <a href="https://www.flickr.com/search/?text=funky49" title="funky49 on flickr" target="_blank">Flickr</a>.</p>
+    <p><a href="https://www.flickr.com/photos/30528258@N05/3948867005/" title="_MG_1007b" data-flickr-embed="true"><img alt="_MG_1007b" height="426" src="https://farm3.staticflickr.com/2476/3948867005_4112064f5e_z.jpg?zz=1" width="640"></a><script charset="utf-8" src="//embedr.flickr.com/assets/client-code.js" type="text/javascript"></script></p><p>Above: funky49 &amp; redvoid at Nerdapalooza 2008</p><p>Below: Speaking on science outreach via hip-hop at Fermilab<br><a href="https://www.flickr.com/photos/30528258@N05/3897835194/" title="Steve Rush (funky49) giving a speech on Science Outreach via Rap" style="line-height: 1.4;" data-flickr-embed="true"><img alt="Steve Rush (funky49) giving a speech on Science Outreach via Rap" height="491" src="https://farm3.staticflickr.com/2652/3897835194_3d0ae6ffb7_z.jpg?zz=1" width="640"></a></p><p><a href="https://www.flickr.com/photos/30528258@N05/3672693660/" title="funky49 rapping for Chuck D" data-flickr-embed="true"><img alt="funky49 rapping for Chuck D" height="480" src="https://farm3.staticflickr.com/2442/3672693660_24dd2702d3_z.jpg" width="640"></a></p><p>Above: Rapping for Chuck D after a Public Enemy show</p><p>Below: USA Science &amp; Engineering Fest with the Science Cheerleaders<a href="https://www.flickr.com/photos/30528258@N05/7176381318/in/photostream/" title="Science Cheerleaders with funky49" data-flickr-embed="true"><img alt="Science Cheerleaders with funky49" height="480" src="https://farm8.staticflickr.com/7081/7176381318_67dafc706a_z.jpg" width="640"></a></p>
+    <p>Bonus info:</p>
+    <p>funky49&rsquo;s music production can be separated in phases based on technology used. 
+            <UL>
+            <LI>Phase 1, pc-based Amiga MOD trackers</LI>
+            <LI>Phase 2, Acid / FruityLoops / SoundForge and USF&rsquo;s SyCom studio </LI>
+            <LI>Phase 3, Propellerhead's Reason</li>
+            <LI>Phase 4, ProTools LE + Reason</LI>
+            <LI>Phase 5, Reason</LI>
+            <LI>Phase 6, Ableton Live + Reason</LI>
+            </UL>
+    </p>
+<p><script charset="utf-8" src="//embedr.flickr.com/assets/client-code.js" type="text/javascript"></script>
+<script charset="utf-8" src="//embedr.flickr.com/assets/client-code.js" type="text/javascript"></script></p>
+        </div>
+
+<div id="footer"></div>
+
+<noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

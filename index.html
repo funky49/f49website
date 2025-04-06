@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funky49 dot com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <script>
+        // Load the navbar.html file into the #navbar div
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    
+        // Add the toggleMenu function
+        function toggleMenu() {
+            const links = document.querySelector('.navbar .links');
+            links.classList.toggle('active');
+        }
+
+            // Load the footer.html file into the #footer div
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+<HR>
+
+    <div class="content"> 
+            <center>
+        <img src="f49point.jpg" alt="funky49 pointing at you">
+            </center>
+
+        <B>.project</B><BR> 
+            To be an awesome Earthling. You're on my planet.<BR>
+        <B>.plan</B><br> 
+            Live raps, producing new music, sharpening the saw<BR>
+            <BR>
+    </div>
+
+<div id="footer"></div>
+<noscript>Nooo, you need to enable JavaScript</noscript>
+</body>
+</html>

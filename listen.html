@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title go here</MENU></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <script>
+        // Load the navbar.html file into the #navbar div
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    
+        // Add the toggleMenu function
+        function toggleMenu() {
+            const links = document.querySelector('.navbar .links');
+            links.classList.toggle('active');
+        }
+            // Load the footer.html file into the #footer div
+            fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+    <div class="content">
+        <P>
+            <UL><a href="http://funky49.bandcamp.com" target="_blank">BandCamp</a> to buy and stream, otherwise:
+            <LI><a href="https://www.amazon.com/music/player/artists/B001EURDDC/funky49" target="_blank">Amazon</a></LI>    
+            <LI><a href="https://music.apple.com/us/artist/funky49/287176262" target="_blank">Apple Music</a></LI>
+            <LI><a href="https://open.spotify.com/artist/6K4WJhPnVEeMdvZt7YsMxJ" target="_blank">Spotify</a></LI>
+            
+        </UL>
+        </P>
+
+	<p>The albums cRUSHed, Dirty Apes Discover Science, Rapbassador, and Starblazer available on <a href="http://funky49.bandcamp.com" title="funky49 on Bandcamp" target="_blank">BandCamp</a>!</p><p><iframe src="https://bandcamp.com/EmbeddedPlayer/album=1793178089/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" style="border: 0; width: 100%; height: 120px;">&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&ldquo;http://funky49.bandcamp.com/album/crushed&rdquo; data-mce-href=&ldquo;http://funky49.bandcamp.com/album/crushed&rdquo;&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;cRUSHed by funky49&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</iframe></p><p><iframe src="https://bandcamp.com/EmbeddedPlayer/album=4018569763/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" style="border: 0; width: 100%; height: 120px;">&amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&ldquo;http://funky49.bandcamp.com/album/dirty-apes-discover-science&rdquo; data-mce-href=&ldquo;http://funky49.bandcamp.com/album/dirty-apes-discover-science&rdquo;&amp;amp;amp;amp;amp;amp;amp;amp;gt;Dirty Apes Discover Science by funky49&amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;gt;</iframe></p><p><iframe src="https://bandcamp.com/EmbeddedPlayer/album=2175395793/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" style="border: 0; width: 100%; height: 120px;">&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&ldquo;http://funky49.bandcamp.com/album/rapbassador&rdquo; data-mce-href=&ldquo;http://funky49.bandcamp.com/album/rapbassador&rdquo;&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Rapbassador by funky49&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</iframe></p><p><iframe src="https://bandcamp.com/EmbeddedPlayer/album=57992714/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" style="border: 0; width: 100%; height: 120px;">&amp;amp;amp;lt;a href=&ldquo;http://funky49.bandcamp.com/album/starblazer&rdquo; data-mce-href=&ldquo;http://funky49.bandcamp.com/album/starblazer&rdquo;&amp;amp;amp;gt;Starblazer by funky49&amp;amp;amp;lt;/a&amp;amp;amp;gt;</iframe></p><p>Starblazer is also available via&nbsp;<a href="http://www.cdbaby.com/cd/funky49" title="funky49 on CDBaby" target="_blank" style="line-height: 19.6000003814697px;">CDBaby</a>,&nbsp;<a href="https://itunes.apple.com/us/album/starblazer/id287176258" title="funky49 on iTunes" target="_blank" style="line-height: 19.6000003814697px;">iTunes</a>,&nbsp;<a href="http://www.amazon.com/Starblazer-Funky49/dp/B001EUYSU8" title="funky49 on Amazon" target="_blank" style="line-height: 19.6000003814697px;">Amazon</a>.</p><p>Experiments, instrumentals, and one-offs available on <a href="https://soundcloud.com/funky49/tracks" title="funky49 on SoundCloud" target="_blank">SoundCloud</a>.</p><p><iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/203095789&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" width="100%"></iframe></p><p>DJ mixes are available on <a href="https://www.mixcloud.com/funky49/" title="funky49 on MixCloud" target="_blank">MixCloud</a>.</p><p><iframe frameborder="0" height="60" src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=d067de61-7207-4ff0-ac5d-0f1a6186ed3f&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Ffunky49%2Ffunky49-mr-bongos-live-at-aloft-downtown-tampa-vive-la-france%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;mini=1&amp;replace=0" width="660"></iframe></p><div style="clear: both; height: 3px; width: 652px;"></div><p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: #999999; width: 652px;"><a href="https://www.mixcloud.com/funky49/funky49-mr-bongos-live-at-aloft-downtown-tampa-vive-la-france/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link" target="_blank" style="color: #808080; font-weight: bold;">Funky49 &amp; Mr. Bongos - Live at Aloft Downtown Tampa - VIVE LA FRANCE</a> by <a href="https://www.mixcloud.com/funky49/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link" target="_blank" style="color: #808080; font-weight: bold;">Funky49</a> on <a href="https://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color: #808080; font-weight: bold;"> Mixcloud</a></p><p><iframe frameborder="0" height="60" src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=bec13326-73e1-4721-a916-60ac6ae55f97&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Ffunky49%2Flive-at-the-lotus-pond-dj-mix-by-mr-bongos-and-funky49%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;light=1&amp;mini=1&amp;replace=0&amp;stylecolor=701919" width="660"></iframe></p><div style="clear: both; height: 3px; width: 652px;"></div><p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: #999999; width: 652px;"><a href="https://www.mixcloud.com/funky49/live-at-the-lotus-pond-dj-mix-by-mr-bongos-and-funky49/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link" target="_blank" style="color: #701919; font-weight: bold;">Live at the Lotus Pond - DJ mix by Mr Bongos and funky49</a> by <a href="https://www.mixcloud.com/funky49/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link" target="_blank" style="color: #701919; font-weight: bold;">Funky49</a> on <a href="https://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color: #701919; font-weight: bold;"> Mixcloud</a></p>
+    </div>
+<div id="footer"></div>
+
+<noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

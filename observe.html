@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title go here</MENU></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <script>
+        // Load the navbar.html file into the #navbar div
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    
+        // Add the toggleMenu function
+        function toggleMenu() {
+            const links = document.querySelector('.navbar .links');
+            links.classList.toggle('active');
+        }
+            // Load the footer.html file into the #footer div
+            fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+    <div class="content">
+        <P>2025 - The scientific method explained in 8 bars! <iframe width="560" height="315" src="https://www.youtube.com/embed/8Flk-6Pyp_Q?si=RPyiSN73SlQqbkMi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></P>
+		<P>2016 - LIVE at the St Petersburg Science Festival! <iframe width="560" height="315" src="https://www.youtube.com/embed/vr9RrRIJEbQ?si=pa0ztcIxGBbMKYFb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></P>			
+        <p>2015 &nbsp;- LIVE at the Geek Easy at Orlando Nerd Fest 2015</p>
+        <p><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/-EwiK1asDoI" width="560"></iframe></p>
+        <p>In 2009 I was honored when the Fermi National Accelerator Laboratory (FERMILAB!) asked me to come visit their facility to speak about science outreach via hip-hop, rap for them, AND shoot a music video!&nbsp;</p>
+        <p><strong>PARTICLE BUSINESS</strong></p><p><iframe frameborder="0" height="480" src="https://www.youtube.com/embed/oaG6umMkbxg" width="560" style="line-height: 1.4;"></iframe></p>
+        <p><strong>MILK AND DOO DOO</strong></p><p><strong><iframe frameborder="0" height="360" src="https://www.youtube.com/embed/s0ZPUzU3hZU" width="560"></iframe></strong></p><p><strong>SCIENCE LIKE US</strong></p>
+        <p><iframe frameborder="0" height="480" src="https://www.youtube.com/embed/eiGW0RqkIjY" width="560"></iframe></p><p><strong>FUNKY49TV</strong></p><p>A mega-playlist of every funky49 associated video on YouTube:</p><p><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJ3-V3KTOrHwWOVJ9IQjOuBchp2L6lJHI" width="560"></iframe></p>
+        </div>
+<div id="footer"></div>
+
+<noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
